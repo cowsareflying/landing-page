@@ -9,6 +9,7 @@
 	font-weight: 200;
 	color: #fff;
 	text-decoration: none;
+	transition: 200ms;
 }
 
 button {
@@ -16,7 +17,7 @@ button {
 }
 
 .header {
-	background: linear-gradient(#1a293b, #0b1d33);
+	background: radial-gradient(circle, #395372, #1f2b3a);
 	color: #fff;
 	display: flex;
 	justify-content: space-between;
@@ -90,7 +91,7 @@ button {
 .hero-container button {
 	border: none;
 	background-color: #4680b9;
-	box-shadow: 0 0 32px #1980e67a;;
+	box-shadow: 0 0 32px #1980e67a;
 	color: #fff;
 	font-size: 16px;
 	padding: 8px 48px;
@@ -213,7 +214,6 @@ h3 {
 .join-container button {
 	margin-left: 48px;
 	background-color: #915fd3;
-	box-shadow: 0 0 24px #dabeffce;
 	border: none;
 	border-radius: 8px;
 	padding: 8px 26px;
@@ -224,4 +224,28 @@ h3 {
 	color: #8a8a8a;
 	padding: 12px 0;
 	text-align: center;
+}
+
+.footer:hover {
+	color:#5a5a5a;
+}
+
+.join-container button:hover {
+	box-shadow: 0 0 24px #dabeffce;
+}
+
+.item img:hover {
+	scale: 102%;
+}
+
+.hero-container button:hover {
+	scale: 102%;
+}
+
+.header h1:hover {
+	scale: 102%;
+}
+
+.header li:hover {
+	text-shadow: 0 0 12px #ffffff2d;
 }
