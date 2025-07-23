@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto Flex';
+	font-size: 16px;
+	font-weight: 200;
+	color: #fff;
+}
+
+.header {
+	background-color: #1C2634;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 64px 4px 64px;
+}
+
+.header h1 {
+	font-family: Sansation;
+	font-weight: 700;
+	font-size: 48px;
+	flex-shrink: 1;
+}
+
+.header ul {
+	display: flex;
+	gap: 64px;
+}
+
+.header li {
+	list-style-type: none;
+}
+
+.header a {
+	text-decoration: none;
+}
