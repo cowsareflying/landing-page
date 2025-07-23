@@ -46,6 +46,7 @@
 	background-size: cover;
 	display: flex;
 	padding: 256px 64px;
+	box-shadow: 0 12px 24px #0000007a;
 }
 
 .hero .logo {
@@ -84,10 +85,56 @@
 
 .hero-container button {
 	border: none;
-	background-color: #305377;
+	background-color: #4881b9;
 	box-shadow: 0 0 32px #1980e67a;;
 	color: #fff;
 	font-size: 16px;
 	padding: 8px 48px;
 	border-radius: 6px;
+	cursor: pointer;
+}
+
+.information {
+	margin-top: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+}
+
+.information h3 {
+	font-size: 32px;
+	font-weight: 500;
+	color: #050D17;
+}
+
+.items {
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	gap: 128px;
+	margin-bottom: 128px;
+}
+
+.item {
+	color: #050D17;
+	font-size: 16px;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.item img {
+	object-fit: cover;
+	object-position: center;
+	width: 250px;
+	height: 250px;
+	border-radius: 32px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #d6d6d6;
 }
